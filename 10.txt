@@ -1,0 +1,9 @@
+contrasena_correcta = "JOHN"
+contrasena_ingresada = ""
+    
+while contrasena_ingresada != contrasena_correcta:
+    contrasena_ingresada = input("Ingrese la contraseña: ")
+    if contrasena_ingresada != contrasena_correcta:
+     print("Contraseña incorrecta. Intente nuevamente.")
+    
+print("¡Contraseña correcta! Acceso concedido.")

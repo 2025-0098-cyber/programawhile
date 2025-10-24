@@ -1,0 +1,8 @@
+numero = int(input("Ingrese un número entero positivo: "))
+contador = 0
+    
+print(f"Números impares desde 1 hasta {numero}:")
+while contador <= numero:
+    if contador % 2 != 0:
+     print(contador)
+    contador += 1

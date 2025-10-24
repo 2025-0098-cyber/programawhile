@@ -1,0 +1,5 @@
+umero = int(input("Ingresa un Numero:"))
+
+while numero >=0:
+    print(numero)
+    numero -=1

@@ -1,0 +1,5 @@
+suma = 0
+for number in range (1,101):
+    suma += number
+
+print(f"La Suma de los numeros 1 al 100 es {suma}")

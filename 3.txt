@@ -1,0 +1,12 @@
+numero = int(input("Ingresa un Numero:"))
+CD = 0
+
+if numero == 0:
+    CD = 1
+else:
+    temp = numero
+while temp > 0:
+   CD += 1
+   temp = temp // 10
+    
+print(f"El número {numero} tiene {CD} dígitos.")
